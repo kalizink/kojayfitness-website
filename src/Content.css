@@ -1,0 +1,27 @@
+:root {
+	--primary-color: #f7be10;
+	--secondary-color: #f5f2fe;
+	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	--hover-color: #d3a310;
+}
+
+.Content h1 {
+	font-size: 45px;
+}
+.Content h2 {
+	font-size: 23px;
+	opacity: 0.8;
+}
+.Content a:hover {
+	background: var(--hover-color);
+}
+.outside-link {
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 25px 40px;
+	background: var(--primary-color);
+	box-shadow: var(--box-shadow);
+	color: white;
+	font-size: 23px;
+	transition: all 100ms ease-in-out;
+}
