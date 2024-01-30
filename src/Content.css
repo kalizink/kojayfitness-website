@@ -28,6 +28,9 @@
 .epn2 {
 	max-width: 60px;
 	max-height: 60px;
+}.instagram{
+    	max-height: 110px;
+		max-width: 110px;
 }
 @media (min-width: 1200px) {
 	.Content h2 {

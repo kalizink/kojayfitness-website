@@ -3,6 +3,8 @@ import logo from "./logo.png";
 import "./Content.css";
 import epn1 from "./epn1.png";
 import epn2 from "./epn2.png";
+import jeremiah from "./jeremiah.png";
+import instagram from "./instagram.png";
 
 export default function Content() {
 	return (
@@ -56,6 +58,35 @@ export default function Content() {
 				</div>
 			</div>
 			{/* EPN end */}
+			{/* instagram start */}
+			<div className="row mt-5">
+				<div className="col-sm-6 ">
+					<img
+						src={jeremiah}
+						className="img-fluid rounded-top rounded-bottom"
+						alt="no-rel"
+					/>
+				</div>
+				<div className="col-sm-6 text-content">
+					<h2 className="text-center mt-3 line-height">@kojayfitness</h2>
+					<div className="text-center mt-4 line-height">
+						<div class="text-center">
+							<a
+								href="https://www.instagram.com/kojayfitness/?igsh=MXBnOGlzOGtpd3dzZg%3D%3D&utm_source=qr"
+								target="_blank"
+								title="@kojayfitness">
+								<img
+									src={instagram}
+									alt="Instagram"
+									title="Instagram"
+									class="img-fluid instagram "
+								/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* instagram end */}
 		</div>
 	);
 }
