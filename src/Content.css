@@ -25,3 +25,17 @@
 	font-size: 23px;
 	transition: all 100ms ease-in-out;
 }
+@media (min-width: 1200px) {
+	.Content h1 {
+		font-size: 60px;
+	}
+	.Content h2 {
+		font-size: 25px;
+	}
+	.line-height {
+		line-height: 60px;
+	}
+	.text-content {
+		margin-top: 120px;
+	}
+}
