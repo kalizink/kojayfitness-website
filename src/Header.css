@@ -1,0 +1,41 @@
+:root {
+	--primary-color: #f7be10;
+	--secondary-color: #f5f2fe;
+	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.Header h1 {
+	margin: 0 auto;
+	font-size: 50px;
+}
+.Header h2 {
+	font-size: 18px;
+	opacity: 0.9;
+}
+.navigation-links a {
+	margin: 20px 20px;
+	border-radius: 4px;
+	padding: 20px 15px;
+	text-decoration: none;
+}
+.contact-link {
+	background: var(--primary-color);
+	box-shadow: var(--box-shadow);
+	color: white;
+}
+.aboutMe-link {
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+}
+@media (min-width: 1200px) {
+	.Header h1 {
+		font-size: 90px;
+	}
+	.Header h2 {
+		font-size: 31px;
+	}
+	.navigation-links a {
+		padding: 30px 25px;
+		font-size: 20px;
+		margin: 30px 30px;
+	}
+}
