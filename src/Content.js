@@ -68,8 +68,8 @@ export default function Content() {
 					/>
 				</div>
 				<div className="col-sm-6 text-content">
-					<h2 className="text-center mt-3 line-height">@kojayfitness</h2>
-					<div className="text-center mt-4 line-height">
+					<h2 className="text-center mt-2 line-height">@kojayfitness</h2>
+					<div className="text-center mt-5 line-height">
 						<div class="text-center">
 							<a
 								href="https://www.instagram.com/kojayfitness/?igsh=MXBnOGlzOGtpd3dzZg%3D%3D&utm_source=qr"
