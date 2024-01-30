@@ -5,10 +5,10 @@
 	--hover-color: #d3a310;
 }
 
-.Content h1 {
+.Content h2 {
 	font-size: 45px;
 }
-.Content h2 {
+.Content h3 {
 	font-size: 23px;
 	opacity: 0.8;
 }
@@ -25,11 +25,15 @@
 	font-size: 23px;
 	transition: all 100ms ease-in-out;
 }
+.epn2 {
+	max-width: 60px;
+	max-height: 60px;
+}
 @media (min-width: 1200px) {
-	.Content h1 {
+	.Content h2 {
 		font-size: 60px;
 	}
-	.Content h2 {
+	.Content h3 {
 		font-size: 25px;
 	}
 	.line-height {
@@ -37,5 +41,9 @@
 	}
 	.text-content {
 		margin-top: 120px;
+	}
+	.epn2 {
+		max-height: 110px;
+		max-width: 110px;
 	}
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import logo from "./logo.png";
 import "./Content.css";
-import EPN1 from "./epn-logo.png";
+import epn1 from "./epn1.png";
+import epn2 from "./epn2.png";
 
 export default function Content() {
 	return (
@@ -12,10 +13,10 @@ export default function Content() {
 					<img src={logo} className="img-fluid" alt="no-rel" />
 				</div>
 				<div className="col-sm-6 text-content">
-					<h1 className="text-center mt-3 line-height">Trainerize</h1>
-					<h2 className="text-center mt-3 line-height">
+					<h2 className="text-center mt-3 line-height">Trainerize</h2>
+					<h3 className="text-center mt-3 line-height">
 						Online training & nutrition programs
-					</h2>
+					</h3>
 					<div className="text-center mt-5 line-height">
 						<a
 							href="https://www.trainerize.me/profile/kojayfitness/Jeremiah.Bennett/"
@@ -31,12 +32,18 @@ export default function Content() {
 			{/* EPN start */}
 			<div className="row mt-5">
 				<div className="col-sm-6 ">
-					<img src={EPN1} className="img-fluid" alt="no-rel" />
+					<img src={epn1} className="img-fluid" alt="no-rel" /> <br />{" "}
+					<div className="text-center">
+						<img src={epn2} className="img-fluid epn2" alt="no-rel" />
+					</div>
 				</div>
 				<div className="col-sm-6 text-content">
-					<h2 className="text-center mt-3 line-height">
+					<h2 className="text-center mt-3 line-height d-lg-block d-none ">
 						Use JBENNETT for 10% OFF
 					</h2>
+					<h3 className="text-center mt-3 line-height d-sm-block d-lg-none">
+						Use JBENNETT for 10% OFF
+					</h3>
 					<div className="text-center mt-5 line-height">
 						<a
 							href="https://ep-nutrition.com/"
