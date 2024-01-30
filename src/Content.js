@@ -74,7 +74,8 @@ export default function Content() {
 							<a
 								href="https://www.instagram.com/kojayfitness/?igsh=MXBnOGlzOGtpd3dzZg%3D%3D&utm_source=qr"
 								target="_blank"
-								title="@kojayfitness">
+								title="@kojayfitness"
+								rel="noreferrer">
 								<img
 									src={instagram}
 									alt="Instagram"
