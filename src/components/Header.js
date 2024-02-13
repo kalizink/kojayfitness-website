@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
 	return (
@@ -9,15 +10,12 @@ export default function Header() {
 				Sports Performance Coach & Personal Trainer in Houston, TX
 			</h2>
 			<div className="navigation-links text-center mt-5">
-				<a href="/" className="contact-link">
-					Contact Me
-				</a>
-				<a
-					href="/"
-					className="aboutMe-link
-                ">
+				***
+				<Link to="/#contact">Home</Link>
+				****
+				<Link to="/AboutPage" className="aboutMe-link">
 					About Me
-				</a>
+				</Link>
 			</div>
 		</div>
 	);

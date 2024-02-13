@@ -1,0 +1,13 @@
+.ContactFooter h3 {
+	font-size: 25px;
+	margin: 20px 0 10px 0;
+}
+.ContactFooter a {
+	margin: 0 auto;
+	color: var(--primary-color);
+	text-decoration: none;
+}
+.ContactFooter a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

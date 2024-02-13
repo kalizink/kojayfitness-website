@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import Content from "./Content";
 import NavbarComp from "./NavbarComp";
+import ContactFooter from "./ContactFooter";
 
 export default function App() {
 	return (
@@ -12,6 +13,8 @@ export default function App() {
 				<Header />
 				<br />
 				<Content />
+				<br />
+				<ContactFooter />
 			</div>
 		</div>
 	);
