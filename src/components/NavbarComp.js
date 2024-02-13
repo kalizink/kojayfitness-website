@@ -1,19 +1,39 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
+import "./NavbarComp.css";
 
 export default function NavbarComp() {
 	return (
-		<Navbar expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
+		<Navbar bg="dark" variant="dark" fixed="top" expand="lg">
 			<Container>
-				<Navbar.Brand href="#home">Jeremiah Bennett</Navbar.Brand>
+				<Navbar.Brand>
+					<Link to="/" className="link">
+						KojayFitness
+					</Link>
+				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="me-auto">
-						<Nav.Link href="#home">Home</Nav.Link>
-						<Nav.Link href="#link">About</Nav.Link>
-						<Nav.Link href="#link">Contact</Nav.Link>
+						<Nav>
+							<Link to="/" className="link">
+								{" "}
+								Home
+							</Link>
+						</Nav>
+						<Nav>
+							<Link to="/AboutPage" className="link">
+								{" "}
+								About
+							</Link>
+						</Nav>
+						<Nav>
+							<Link to="/AboutPge" className="link">
+								{" "}
+								Contact
+							</Link>
+						</Nav>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

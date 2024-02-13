@@ -1,5 +1,12 @@
 import React from "react";
+import NavbarComp from "./NavbarComp";
+
 
 export default function AboutPage() {
-	return "about page!!!";
+	return (
+		<div className="AboutPage">
+			<NavbarComp />
+			<div className="container">about page!!!</div>
+		</div>
+	);
 }

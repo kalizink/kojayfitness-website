@@ -8,7 +8,7 @@ export default function App() {
 	return (
 		<div className="App">
 			<NavbarComp />
-			<div className="container">
+			<div className="container mt-5">
 				<Header />
 				<br />
 				<Content />
