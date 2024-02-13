@@ -1,3 +1,30 @@
+:root {
+	--primary-color: #f7be10;
+	--secondary-color: #f5f2fe;
+	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .AboutPage {
 	color: white;
+}
+.AboutPage .container {
+	margin: 0 auto;
+	padding: 20px 30px;
+}
+.AboutPage h1 {
+	font-size: 40px;
+	margin-top: 90px;
+}
+.AboutPage h2 {
+	font-size: 25px;
+}
+.AboutPage p {
+	font-size: 18pxs;
+}
+.AboutPage .column {
+	margin-top: 10px;
+	padding: 10px 10px;
+}
+.AboutPage img {
+	border-radius: 4px;
 }
