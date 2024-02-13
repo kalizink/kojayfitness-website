@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "./logo.png";
+import logo from "../images/logo.png";
 import "./Content.css";
-import epn1 from "./epn1.png";
-import epn2 from "./epn2.png";
-import jeremiah from "./jeremiah.png";
-import instagram from "./instagram.png";
+import epn1 from "../images/epn1.png";
+import epn2 from "../images/epn2.png";
+import jeremiah from "../images/jeremiah.png";
+import instagram from "../images/instagram.png";
 
 export default function Content() {
 	return (
