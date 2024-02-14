@@ -8,9 +8,10 @@ import ContactFooter from "./ContactFooter.js";
 
 export default function AboutPage() {
 	return (
-		<div className="AboutPage">
+		<div>
 			<NavbarComp />
-			<div className="container">
+			<br />
+			<div className="AboutPage mt-4">
 				<div className="header">
 					<h1 className="text-center">About Me</h1>
 					<h2 className="text-center">Personal Trainer from California</h2>

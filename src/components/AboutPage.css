@@ -7,13 +7,12 @@
 .AboutPage {
 	color: white;
 }
-.AboutPage .container {
+.AboutPage {
 	margin: 0 auto;
 	padding: 20px 30px;
 }
 .AboutPage h1 {
 	font-size: 40px;
-	margin-top: 90px;
 }
 .AboutPage h2 {
 	font-size: 25px;
@@ -28,4 +27,3 @@
 .AboutPage img {
 	border-radius: 4px;
 }
-

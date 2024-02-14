@@ -10,9 +10,10 @@ export default function Header() {
 				Sports Performance Coach & Personal Trainer in Houston, TX
 			</h2>
 			<div className="navigation-links text-center mt-5">
-				***
-				<Link to="/#contact">Home</Link>
-				****
+				<Link to="/ContactPage" className="contact-link">
+					Contact Me
+				</Link>
+
 				<Link to="/AboutPage" className="aboutMe-link">
 					About Me
 				</Link>

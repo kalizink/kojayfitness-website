@@ -14,7 +14,7 @@ export default function App() {
 				<br />
 				<Content />
 				<br />
-				<ContactFooter />
+				<ContactFooter id="contact" />
 			</div>
 		</div>
 	);
