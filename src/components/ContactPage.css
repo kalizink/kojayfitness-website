@@ -1,0 +1,22 @@
+.ContactPage {
+	color: white;
+}
+.ContactPage .contact-container {
+	margin: 30px auto;
+}
+.ContactPage h1 {
+	font-size: 40px;
+}
+.ContactPage a {
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+}
+.ContactPage a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.ContactPage img {
+	max-height: 100px;
+	max-width: auto;
+}

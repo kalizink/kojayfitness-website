@@ -3,7 +3,7 @@ import "./ContactFooter.css";
 
 export default function ContactFooter() {
 	return (
-		<div className="ContactFooter text-center" id="contact">
+		<div className="ContactFooter text-center">
 			<h3> 📮 Contact Me</h3>
 			<p>
 				<a
